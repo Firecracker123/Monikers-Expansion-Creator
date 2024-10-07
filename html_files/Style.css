@@ -1,0 +1,71 @@
+body {height:600px; width: 400px; margin: auto; background-color: white;}
+
+
+h1 {text-align: center; font-family: GothicRounded;  font-weight: 550; font-size: 25px; width: 300px;  position:fixed; left: 50%; transform: translateX(-50%); top:15%;}
+
+
+#descriptionContainer {position: relative; width: 280px; transform: translate(-50%);  left: 51%; top: 200;}
+#description {  font-family: GothicBook; font-size: 15; font-size: 17px;}
+
+#dotContainer {bottom: 136.5px; position: absolute; left: 50%; transform: translateX(-50%)}
+h2 {text-align: center; font-family: GothicRounded; color: #d8d8d8; font-size: 30px;}
+
+#genreContainer {bottom: 111.5px; position: absolute; left:50%; transform: translateX(-50%); width: 500px}
+#genre {text-align: center; font-family: GothicRounded; font-weight:bold; font-size: 17px; letter-spacing: 3px;}
+
+svg {position:absolute; left: 50%; transform: translateX(-50%);}
+svg.main-shape { bottom: 10;}
+svg.rectangle {bottom: -10}
+
+
+@font-face {
+    font-family: GothicRounded; 
+    src: url('Fonts/Gotham\ Rounded\ Medium.otf');
+}
+
+@font-face {
+    font-family: GothicBook;
+    src: url('Fonts/Gotham\ Book\ Regular.otf');
+}
+
+@font-face {
+    font-family: GothicBold;
+    src: url('Fonts/Gotham\ Bold.otf');
+}
+
+
+text {font:  25px GothicBold}
+
+#points_word {font:  10px GothicRounded; letter-spacing: 1px;}
+#points_num {font:  25px GothicRounded;}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+    background-color: #999999;
+    display: none;
+  }
+  
+  html > ::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #999999;
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background-color: #797979;
+    display: none;
+  }
+
+  
+  .fixed-element {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
